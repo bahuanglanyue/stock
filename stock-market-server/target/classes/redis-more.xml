@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Redis 配置 -->
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="1000"/>
+        <property name="maxIdle" value="5000"/>
+        <property name="maxWaitMillis" value="10000"/>
+        <!--是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个-->
+        <property name="testOnBorrow" value="true"/>
+        <property name="minEvictableIdleTimeMillis" value="1000"/>
+        <!--每次逐出检查时 逐出的最大数目 如果为负数就是 : 1/abs(n), 默认3-->
+        <property name="numTestsPerEvictionRun" value="3"/>
+        <!--逐出扫描的时间间隔(毫秒) 如果为负数,则不运行逐出线程, 默认-1-->
+        <property name="timeBetweenEvictionRunsMillis" value="1"/>
+        <!--在空闲时检查有效性, 默认false  -->
+        <property name="testWhileIdle" value="false"/>
+    </bean>
+
+    <!-- redis集群配置 哨兵模式 -->
+    <bean class="org.springframework.data.redis.connection.RedisSentinelConfiguration" id="sentinelConfiguration">
+        <property name="master">
+            <bean class="org.springframework.data.redis.connection.RedisNode">
+                <!--  这个值要和Sentinel中指定的master的值一致，不然启动时找不到Sentinel会报错的   -->
+                <property name="name" value="mymaster"></property>
+            </bean>
+        </property>
+        <!--  记住了,这里是指定Sentinel的IP和端口，不是Master和Slave的   -->
+        <property name="sentinels">
+            <set>
+                <!-- 我这里就配置一个哨兵 -->
+                <bean class="org.springframework.data.redis.connection.RedisNode">
+                    <constructor-arg name="host" value="${redis.sentinel.host1}"></constructor-arg>
+                    <constructor-arg name="port" value="${redis.sentinel.port1}"></constructor-arg>
+                </bean>
+                <bean class="org.springframework.data.redis.connection.RedisNode">
+                    <constructor-arg name="host" value="${redis.sentinel.host2}"></constructor-arg>
+                    <constructor-arg name="port" value="${redis.sentinel.port2}"></constructor-arg>
+                </bean>
+                 <bean class="org.springframework.data.redis.connection.RedisNode">
+                     <constructor-arg name="host" value="${redis.sentinel.host3}"></constructor-arg>
+                     <constructor-arg name="port" value="${redis.sentinel.port3}"></constructor-arg>
+                 </bean>
+            </set>
+        </property>
+    </bean>
+
+    <!-- redis数据库连接配置-->
+    <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <constructor-arg name="sentinelConfig" ref="sentinelConfiguration"></constructor-arg>
+        <constructor-arg name="poolConfig" ref="jedisPoolConfig"></constructor-arg>
+        <property name="password" value="${redis.password}"/>
+        <property name="timeout" value="${redis.timeout}"/>
+        <property name="database" value="${redis.database}"/>
+    </bean>
+
+
+    <bean id="stringRedisSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+    <bean id="JdkSerializationRedisSerializer"
+          class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
+    <!-- redisTemplate配置，redisTemplate是对Jedis的对redis操作的扩展，有更多的操作，封装使操作更便捷 -->
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+        <property name="connectionFactory" ref="jedisConnectionFactory"/>
+        <property name="keySerializer" ref="stringRedisSerializer"/>
+        <property name="valueSerializer" ref="stringRedisSerializer"/>
+        <property name="hashKeySerializer" ref="stringRedisSerializer"/>
+        <property name="hashValueSerializer" ref="stringRedisSerializer"/>
+    </bean>
+
+    <bean id="stringRedisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
+        <property name="connectionFactory" ref="jedisConnectionFactory"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- 格式化输出：%d表示日期,%t：输出产生该日志事件的线程名,%-5level：级别从左显示5个字符宽度,%logger{36} 表示logger名字最长36个字符，否则按照句点分割,%msg%n 其中msg表示打印输出的消息， %n表示换行, -->
+            <PatternLayout pattern="%-d{yyyy-MM-dd HH:mm:ss} [%p] [%c:%L] [%t] - %msg%n" />
+        </Console>
+
+        <!-- 将级别为error的日志输出到指定的文件 -->
+        <RollingFile name="Error" fileName="../logs/market-gateway-error.log" filePattern="../logs/$${date:yyyy-MM}/market-gateway-error-%d{MM-dd-yyyy}-%i.log.gz">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+            <PatternLayout pattern="%-d{yyyy-MM-dd HH:mm:ss} [%p] [%c:%L] [%t] - %msg%n" />
+            <SizeBasedTriggeringPolicy size="10MB" />
+        </RollingFile>
+
+        <!-- 将级别为info的日志输出到指定的文件 -->
+        <RollingFile name="Info" fileName="../logs/market-gateway.log" filePattern="../logs/$${date:yyyy-MM}/market-gateway-%d{MM-dd-yyyy}-%i.log.gz">
+            <Filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+            </Filters>
+            <PatternLayout pattern="%-d{yyyy-MM-dd HH:mm:ss} [%p] [%c:%L] [%t] - %msg%n" />
+            <SizeBasedTriggeringPolicy size="10MB" />
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <!-- 只有日志级别高于等于INFO的日志才会输出到指定文件 -->
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <appender-ref ref="Error" />
+            <appender-ref ref="Info" />
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,98 @@
+server:
+    port: 8061
+    tomcat:
+      uri-encoding: UTF-8
+    context-path: /stock-marget-server
+
+spring:
+  profiles:
+      active: dev
+  datasource:
+    name: dev
+    url: jdbc:mysql://10.10.1.101:3306/ceshi?useUnicode=true&characterEncoding=utf-8&useSSL=false&autoReconnect=true
+    username: root
+    password: yingli
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,log4j
+    # 最小连接数
+    minIdle: 1
+    # 最大连接数
+    maxActive: 20
+    # 初始连接数
+    initialSize: 1
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    # 验证数据库连接的有效性
+    validationQuery: select 'x'
+    # 指明连接是否被空闲连接回收器(如果有)进行检验.如果检测失败,则连接将被从池中去除
+    testWhileIdle: true
+    # 指明是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个
+    testOnBorrow: false
+    # 指明是否在归还到池中前进行检验
+    testOnReturn: false
+    # 开启池的prepared statement 池功能
+    poolPreparedStatements: true
+    # 指定每个连接上prepared statement 池的大小
+    maxOpenPreparedStatements: 20
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+
+mybatis-plus:
+  configuration:
+    # 是否开启驼峰功能
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:/com/yingli/dao/mapper/xml/*.xml
+  type-aliases-package: com.yingli.entity
+  global-config:
+    id-type: 0
+    # 驼峰下划线转换
+    db-column-underline: true
+
+#redis模式《one=单机模式，more=哨兵模式》
+redis:
+  mode: one
+  # Redis数据库索引（默认为0）
+  database: 2
+  # Redis服务器地址
+  host: 10.10.1.101
+  # Redis服务器连接端口
+  port: 6379
+  # Redis服务器连接密码（默认为空）
+  password: yingli
+  # 连接超时时间（毫秒）
+  timeout: 5000
+  pool:
+    # 连接池最大连接数（使用负值表示没有限制）
+    maxTotal: 8
+    # 连接池最大阻塞等待时间（使用负值表示没有限制）
+    maxWaitMillis: -1
+    # 连接池中的最大空闲连接
+    maxIdle: 8
+    testOnBorrow: true
+    # 连接池中的最小空闲连接
+    minIdle: 3
+
+
+
+#solr启用开关
+solr:
+  enable: true
+  host: http://10.10.1.101:10000/solr
+
+
+---
+spring:
+  profiles: test
+  datasource:
+    name: test
+    url: jdbc:mysql://10.10.1.134:3306/gubao?useUnicode=true&characterEncoding=utf-8&useSSL=false&autoReconnect=true
+    username: root
+    password: yingli

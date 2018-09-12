@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stock-market-common" />
+        <module name="stock-market-gateway" />
+        <module name="stock-market-server" />
+        <module name="stock-market-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stock-market" target="1.8" />
+      <module name="stock-market-common" target="1.8" />
+      <module name="stock-market-gateway" target="1.8" />
+      <module name="stock-market-server" target="1.8" />
+      <module name="stock-market-service" target="1.8" />
+      <module name="web-demo" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

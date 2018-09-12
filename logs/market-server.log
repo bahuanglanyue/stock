@@ -1,0 +1,358 @@
+2018-09-12 08:51:10 [INFO] [com.yingli.StockMarketServerStart:48] [restartedMain] - Starting StockMarketServerStart on PC-20170917JCUA with PID 14340 (E:\devsoft\stock-market\stock-market-server\target\classes started by Administrator in E:\devsoft\stock-market\stock-market-server)
+2018-09-12 08:51:10 [INFO] [com.yingli.StockMarketServerStart:597] [restartedMain] - The following profiles are active: dev
+2018-09-12 08:51:10 [INFO] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] [restartedMain] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1dff113: startup date [Wed Sep 12 08:51:10 CST 2018]; root of context hierarchy
+2018-09-12 08:51:10 [INFO] [org.hibernate.validator.internal.util.Version:30] [background-preinit] - HV000001: Hibernate Validator 5.3.5.Final
+2018-09-12 08:51:11 [INFO] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] [restartedMain] - Loading XML bean definitions from file [E:\devsoft\stock-market\stock-market-server\target\classes\applicationContext-task.xml]
+2018-09-12 08:51:11 [INFO] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] [restartedMain] - Loading XML bean definitions from file [E:\devsoft\stock-market\stock-market-server\target\classes\redis-one.xml]
+2018-09-12 08:51:11 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:165] [restartedMain] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 08:51:11 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:165] [restartedMain] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 08:51:12 [INFO] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] [restartedMain] - Tomcat initialized with port(s): 8061 (http)
+2018-09-12 08:51:12 [INFO] [org.apache.catalina.core.StandardService:179] [restartedMain] - Starting service [Tomcat]
+2018-09-12 08:51:12 [INFO] [org.apache.catalina.core.StandardEngine:179] [restartedMain] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-12 08:51:12 [INFO] [org.apache.jasper.servlet.TldScanner:179] [localhost-startStop-1] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-09-12 08:51:12 [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/stock-marget-server]:179] [localhost-startStop-1] - Initializing Spring embedded WebApplicationContext
+2018-09-12 08:51:12 [INFO] [org.springframework.web.context.ContextLoader:276] [localhost-startStop-1] - Root WebApplicationContext: initialization completed in 2488 ms
+2018-09-12 08:51:13 [INFO] [org.springframework.boot.web.servlet.ServletRegistrationBean:190] [localhost-startStop-1] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-12 08:51:13 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-12 08:51:13 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-12 08:51:13 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-12 08:51:13 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-12 08:51:13 [INFO] [com.alibaba.druid.pool.DruidDataSource:928] [restartedMain] - {dataSource-1} inited
+2018-09-12 08:51:15 [INFO] [org.quartz.impl.StdSchedulerFactory:1172] [restartedMain] - Using default implementation for ThreadExecutor
+2018-09-12 08:51:15 [INFO] [org.quartz.core.SchedulerSignalerImpl:61] [restartedMain] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-09-12 08:51:15 [INFO] [org.quartz.core.QuartzScheduler:240] [restartedMain] - Quartz Scheduler v.2.2.3 created.
+2018-09-12 08:51:15 [INFO] [org.quartz.simpl.RAMJobStore:155] [restartedMain] - RAMJobStore initialized.
+2018-09-12 08:51:15 [INFO] [org.quartz.core.QuartzScheduler:305] [restartedMain] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-12 08:51:15 [INFO] [org.quartz.impl.StdSchedulerFactory:1327] [restartedMain] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-09-12 08:51:15 [INFO] [org.quartz.impl.StdSchedulerFactory:1331] [restartedMain] - Quartz scheduler version: 2.2.3
+2018-09-12 08:51:15 [INFO] [org.quartz.core.QuartzScheduler:2311] [restartedMain] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@250f49
+2018-09-12 08:51:16 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] [restartedMain] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1dff113: startup date [Wed Sep 12 08:51:10 CST 2018]; root of context hierarchy
+2018-09-12 08:51:16 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/login]}" onto public java.lang.String com.yingli.controller.WebController.login()
+2018-09-12 08:51:16 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-12 08:51:16 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-12 08:51:16 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 08:51:16 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 08:51:16 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 08:51:16 [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] [restartedMain] - LiveReload server is running on port 35729
+2018-09-12 08:51:16 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] [restartedMain] - Registering beans for JMX exposure on startup
+2018-09-12 08:51:16 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [restartedMain] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-09-12 08:51:16 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] [restartedMain] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-09-12 08:51:16 [INFO] [org.springframework.context.support.DefaultLifecycleProcessor:343] [restartedMain] - Starting beans in phase 2147483647
+2018-09-12 08:51:16 [INFO] [org.springframework.scheduling.quartz.SchedulerFactoryBean:650] [restartedMain] - Will start Quartz Scheduler [schedulerFactoryBean] in 10 seconds
+2018-09-12 08:51:16 [INFO] [org.apache.coyote.http11.Http11NioProtocol:179] [restartedMain] - Initializing ProtocolHandler ["http-nio-8061"]
+2018-09-12 08:51:16 [INFO] [org.apache.coyote.http11.Http11NioProtocol:179] [restartedMain] - Starting ProtocolHandler ["http-nio-8061"]
+2018-09-12 08:51:16 [INFO] [org.apache.tomcat.util.net.NioSelectorPool:179] [restartedMain] - Using a shared selector for servlet write/read
+2018-09-12 08:51:16 [INFO] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:201] [restartedMain] - Tomcat started on port(s): 8061 (http)
+2018-09-12 08:51:16 [INFO] [com.yingli.StockMarketServerStart:57] [restartedMain] - Started StockMarketServerStart in 6.88 seconds (JVM running for 7.85)
+2018-09-12 08:51:16 [INFO] [com.yingli.StockMarketServerStart:28] [restartedMain] - 行情后台服务启动成功
+2018-09-12 08:51:26 [INFO] [org.springframework.scheduling.quartz.SchedulerFactoryBean:665] [Quartz Scheduler [schedulerFactoryBean]] - Starting Quartz Scheduler now, after delay of 10 seconds
+2018-09-12 08:51:26 [INFO] [org.quartz.core.QuartzScheduler:575] [Quartz Scheduler [schedulerFactoryBean]] - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-09-12 08:51:34 [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/stock-marget-server]:179] [http-nio-8061-exec-1] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-12 08:51:34 [INFO] [org.springframework.web.servlet.DispatcherServlet:489] [http-nio-8061-exec-1] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-12 08:51:34 [INFO] [org.springframework.web.servlet.DispatcherServlet:508] [http-nio-8061-exec-1] - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-09-12 09:00:44 [INFO] [com.yingli.StockMarketServerStart:48] [restartedMain] - Starting StockMarketServerStart on PC-20170917JCUA with PID 9152 (E:\devsoft\stock-market\stock-market-server\target\classes started by Administrator in E:\devsoft\stock-market\stock-market-server)
+2018-09-12 09:00:44 [INFO] [com.yingli.StockMarketServerStart:597] [restartedMain] - The following profiles are active: dev
+2018-09-12 09:00:44 [INFO] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] [restartedMain] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a79bed: startup date [Wed Sep 12 09:00:44 CST 2018]; root of context hierarchy
+2018-09-12 09:00:44 [INFO] [org.hibernate.validator.internal.util.Version:30] [background-preinit] - HV000001: Hibernate Validator 5.3.5.Final
+2018-09-12 09:00:44 [INFO] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] [restartedMain] - Loading XML bean definitions from file [E:\devsoft\stock-market\stock-market-server\target\classes\applicationContext-task.xml]
+2018-09-12 09:00:44 [INFO] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] [restartedMain] - Loading XML bean definitions from file [E:\devsoft\stock-market\stock-market-server\target\classes\redis-one.xml]
+2018-09-12 09:00:44 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:165] [restartedMain] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 09:00:44 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:165] [restartedMain] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 09:00:45 [INFO] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] [restartedMain] - Tomcat initialized with port(s): 8061 (http)
+2018-09-12 09:00:45 [INFO] [org.apache.catalina.core.StandardService:179] [restartedMain] - Starting service [Tomcat]
+2018-09-12 09:00:45 [INFO] [org.apache.catalina.core.StandardEngine:179] [restartedMain] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-12 09:00:46 [INFO] [org.apache.jasper.servlet.TldScanner:179] [localhost-startStop-1] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-09-12 09:00:46 [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/stock-marget-server]:179] [localhost-startStop-1] - Initializing Spring embedded WebApplicationContext
+2018-09-12 09:00:46 [INFO] [org.springframework.web.context.ContextLoader:276] [localhost-startStop-1] - Root WebApplicationContext: initialization completed in 2115 ms
+2018-09-12 09:00:46 [INFO] [org.springframework.boot.web.servlet.ServletRegistrationBean:190] [localhost-startStop-1] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-12 09:00:46 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-12 09:00:46 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-12 09:00:46 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-12 09:00:46 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-12 09:00:46 [INFO] [com.alibaba.druid.pool.DruidDataSource:928] [restartedMain] - {dataSource-1} inited
+2018-09-12 09:00:48 [INFO] [org.quartz.impl.StdSchedulerFactory:1172] [restartedMain] - Using default implementation for ThreadExecutor
+2018-09-12 09:00:48 [INFO] [org.quartz.core.SchedulerSignalerImpl:61] [restartedMain] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-09-12 09:00:48 [INFO] [org.quartz.core.QuartzScheduler:240] [restartedMain] - Quartz Scheduler v.2.2.3 created.
+2018-09-12 09:00:48 [INFO] [org.quartz.simpl.RAMJobStore:155] [restartedMain] - RAMJobStore initialized.
+2018-09-12 09:00:48 [INFO] [org.quartz.core.QuartzScheduler:305] [restartedMain] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-12 09:00:48 [INFO] [org.quartz.impl.StdSchedulerFactory:1327] [restartedMain] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-09-12 09:00:48 [INFO] [org.quartz.impl.StdSchedulerFactory:1331] [restartedMain] - Quartz scheduler version: 2.2.3
+2018-09-12 09:00:48 [INFO] [org.quartz.core.QuartzScheduler:2311] [restartedMain] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1e3a196
+2018-09-12 09:00:48 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] [restartedMain] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a79bed: startup date [Wed Sep 12 09:00:44 CST 2018]; root of context hierarchy
+2018-09-12 09:00:48 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/login]}" onto public java.lang.String com.yingli.controller.WebController.login()
+2018-09-12 09:00:48 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-12 09:00:48 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-12 09:00:48 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 09:00:48 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 09:00:48 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 09:00:49 [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] [restartedMain] - LiveReload server is running on port 35729
+2018-09-12 09:00:49 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] [restartedMain] - Registering beans for JMX exposure on startup
+2018-09-12 09:00:49 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [restartedMain] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-09-12 09:00:49 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] [restartedMain] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-09-12 09:00:49 [INFO] [org.springframework.context.support.DefaultLifecycleProcessor:343] [restartedMain] - Starting beans in phase 2147483647
+2018-09-12 09:00:49 [INFO] [org.springframework.scheduling.quartz.SchedulerFactoryBean:650] [restartedMain] - Will start Quartz Scheduler [schedulerFactoryBean] in 10 seconds
+2018-09-12 09:00:49 [INFO] [org.apache.coyote.http11.Http11NioProtocol:179] [restartedMain] - Initializing ProtocolHandler ["http-nio-8061"]
+2018-09-12 09:00:49 [INFO] [org.apache.coyote.http11.Http11NioProtocol:179] [restartedMain] - Starting ProtocolHandler ["http-nio-8061"]
+2018-09-12 09:00:49 [INFO] [org.apache.tomcat.util.net.NioSelectorPool:179] [restartedMain] - Using a shared selector for servlet write/read
+2018-09-12 09:00:49 [INFO] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:201] [restartedMain] - Tomcat started on port(s): 8061 (http)
+2018-09-12 09:00:49 [INFO] [com.yingli.StockMarketServerStart:57] [restartedMain] - Started StockMarketServerStart in 5.639 seconds (JVM running for 6.629)
+2018-09-12 09:00:49 [INFO] [com.yingli.StockMarketServerStart:28] [restartedMain] - 行情后台服务启动成功
+2018-09-12 09:00:59 [INFO] [org.springframework.scheduling.quartz.SchedulerFactoryBean:665] [Quartz Scheduler [schedulerFactoryBean]] - Starting Quartz Scheduler now, after delay of 10 seconds
+2018-09-12 09:00:59 [INFO] [org.quartz.core.QuartzScheduler:575] [Quartz Scheduler [schedulerFactoryBean]] - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-09-12 09:00:59 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-1] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:00:59 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-1] - 9:00-9:27之间不刷新行情
+2018-09-12 09:00:59 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-1] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:01:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-2] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:01:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-2] - 9:00-9:27之间不刷新行情
+2018-09-12 09:01:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-2] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:01:15 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-3] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:01:15 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-3] - 9:00-9:27之间不刷新行情
+2018-09-12 09:01:15 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-3] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:01:25 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-4] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:01:25 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-4] - 9:00-9:27之间不刷新行情
+2018-09-12 09:01:25 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-4] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:01:35 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-5] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:01:35 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-5] - 9:00-9:27之间不刷新行情
+2018-09-12 09:01:35 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-5] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:01:45 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-6] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:01:45 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-6] - 9:00-9:27之间不刷新行情
+2018-09-12 09:01:45 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-6] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:01:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-7] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:01:55 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-7] - 9:00-9:27之间不刷新行情
+2018-09-12 09:01:55 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-7] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:02:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-8] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:02:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-8] - 9:00-9:27之间不刷新行情
+2018-09-12 09:02:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-8] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:02:15 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-9] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:02:15 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-9] - 9:00-9:27之间不刷新行情
+2018-09-12 09:02:15 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-9] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:02:25 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-10] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:02:25 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-10] - 9:00-9:27之间不刷新行情
+2018-09-12 09:02:25 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-10] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:02:35 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-1] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:02:35 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-1] - 9:00-9:27之间不刷新行情
+2018-09-12 09:02:35 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-1] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:02:45 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-2] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:02:45 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-2] - 9:00-9:27之间不刷新行情
+2018-09-12 09:02:45 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-2] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:02:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-3] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:02:55 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-3] - 9:00-9:27之间不刷新行情
+2018-09-12 09:02:55 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-3] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:03:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-4] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:03:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-4] - 9:00-9:27之间不刷新行情
+2018-09-12 09:03:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-4] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:03:15 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-5] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:03:15 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-5] - 9:00-9:27之间不刷新行情
+2018-09-12 09:03:15 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-5] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:03:25 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-6] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:03:25 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-6] - 9:00-9:27之间不刷新行情
+2018-09-12 09:03:25 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-6] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:03:35 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-7] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:03:35 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-7] - 9:00-9:27之间不刷新行情
+2018-09-12 09:03:35 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-7] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:03:45 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-8] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:03:45 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-8] - 9:00-9:27之间不刷新行情
+2018-09-12 09:03:45 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-8] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:03:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-9] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:03:55 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-9] - 9:00-9:27之间不刷新行情
+2018-09-12 09:03:55 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-9] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:04:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-10] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:04:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-10] - 9:00-9:27之间不刷新行情
+2018-09-12 09:04:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-10] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:04:15 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-1] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:04:15 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-1] - 9:00-9:27之间不刷新行情
+2018-09-12 09:04:15 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-1] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:04:25 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-2] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:04:25 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-2] - 9:00-9:27之间不刷新行情
+2018-09-12 09:04:25 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-2] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:04:35 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-3] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:04:35 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-3] - 9:00-9:27之间不刷新行情
+2018-09-12 09:04:35 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-3] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:04:45 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-4] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:04:45 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-4] - 9:00-9:27之间不刷新行情
+2018-09-12 09:04:45 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-4] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:04:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-5] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:04:55 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-5] - 9:00-9:27之间不刷新行情
+2018-09-12 09:04:55 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-5] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:05:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-6] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:05:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-6] - 9:00-9:27之间不刷新行情
+2018-09-12 09:05:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-6] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:05:15 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-7] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:05:15 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-7] - 9:00-9:27之间不刷新行情
+2018-09-12 09:05:15 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-7] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:05:25 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-8] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:05:25 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-8] - 9:00-9:27之间不刷新行情
+2018-09-12 09:05:25 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-8] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:05:35 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-9] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:05:35 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-9] - 9:00-9:27之间不刷新行情
+2018-09-12 09:05:35 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-9] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:05:45 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-10] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:05:45 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-10] - 9:00-9:27之间不刷新行情
+2018-09-12 09:05:45 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-10] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:05:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-1] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:05:55 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-1] - 9:00-9:27之间不刷新行情
+2018-09-12 09:05:55 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-1] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:06:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-2] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:06:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-2] - 9:00-9:27之间不刷新行情
+2018-09-12 09:06:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-2] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:06:15 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-3] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:06:15 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-3] - 9:00-9:27之间不刷新行情
+2018-09-12 09:06:15 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-3] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:06:25 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-4] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:06:25 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-4] - 9:00-9:27之间不刷新行情
+2018-09-12 09:06:25 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-4] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:06:35 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-5] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:06:35 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-5] - 9:00-9:27之间不刷新行情
+2018-09-12 09:06:35 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-5] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:06:45 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-6] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:06:45 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-6] - 9:00-9:27之间不刷新行情
+2018-09-12 09:06:45 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-6] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:06:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-7] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:06:55 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-7] - 9:00-9:27之间不刷新行情
+2018-09-12 09:06:55 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-7] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:07:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-8] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:07:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-8] - 9:00-9:27之间不刷新行情
+2018-09-12 09:07:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-8] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:07:15 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-9] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:07:15 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-9] - 9:00-9:27之间不刷新行情
+2018-09-12 09:07:15 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-9] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:07:25 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-10] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:07:25 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-10] - 9:00-9:27之间不刷新行情
+2018-09-12 09:07:25 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-10] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:07:35 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-1] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:07:35 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-1] - 9:00-9:27之间不刷新行情
+2018-09-12 09:07:35 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-1] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:07:45 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-2] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:07:45 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-2] - 9:00-9:27之间不刷新行情
+2018-09-12 09:07:45 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-2] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:07:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-3] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:07:55 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-3] - 9:00-9:27之间不刷新行情
+2018-09-12 09:07:55 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-3] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 09:08:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-4] - *************************************开始执行行情刷新*************************************
+2018-09-12 09:08:05 [INFO] [com.yingli.stock.server.StockService:416] [schedulerFactoryBean_Worker-4] - 9:00-9:27之间不刷新行情
+2018-09-12 09:08:05 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-4] - *************************************执行行情刷新结束, 耗时0秒*************************************
+
+2018-09-12 10:44:40 [INFO] [com.yingli.StockMarketServerStart:48] [restartedMain] - Starting StockMarketServerStart on PC-20170917JCUA with PID 18396 (E:\devsoft\stock-market\stock-market-server\target\classes started by Administrator in E:\devsoft\stock-market\stock-market-server)
+2018-09-12 10:44:40 [INFO] [com.yingli.StockMarketServerStart:597] [restartedMain] - The following profiles are active: dev
+2018-09-12 10:44:40 [INFO] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] [restartedMain] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1dff113: startup date [Wed Sep 12 10:44:40 CST 2018]; root of context hierarchy
+2018-09-12 10:44:40 [INFO] [org.hibernate.validator.internal.util.Version:30] [background-preinit] - HV000001: Hibernate Validator 5.3.5.Final
+2018-09-12 10:44:41 [INFO] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] [restartedMain] - Loading XML bean definitions from file [E:\devsoft\stock-market\stock-market-server\target\classes\applicationContext-task.xml]
+2018-09-12 10:44:41 [INFO] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader:317] [restartedMain] - Loading XML bean definitions from file [E:\devsoft\stock-market\stock-market-server\target\classes\redis-one.xml]
+2018-09-12 10:44:41 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:165] [restartedMain] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 10:44:41 [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:165] [restartedMain] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-12 10:44:42 [INFO] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] [restartedMain] - Tomcat initialized with port(s): 8061 (http)
+2018-09-12 10:44:42 [INFO] [org.apache.catalina.core.StandardService:179] [restartedMain] - Starting service [Tomcat]
+2018-09-12 10:44:42 [INFO] [org.apache.catalina.core.StandardEngine:179] [restartedMain] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-12 10:44:42 [INFO] [org.apache.jasper.servlet.TldScanner:179] [localhost-startStop-1] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-09-12 10:44:42 [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/stock-marget-server]:179] [localhost-startStop-1] - Initializing Spring embedded WebApplicationContext
+2018-09-12 10:44:42 [INFO] [org.springframework.web.context.ContextLoader:276] [localhost-startStop-1] - Root WebApplicationContext: initialization completed in 2085 ms
+2018-09-12 10:44:42 [INFO] [org.springframework.boot.web.servlet.ServletRegistrationBean:190] [localhost-startStop-1] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-12 10:44:42 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-12 10:44:42 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-12 10:44:42 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-12 10:44:42 [INFO] [org.springframework.boot.web.servlet.FilterRegistrationBean:258] [localhost-startStop-1] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-12 10:44:43 [INFO] [com.alibaba.druid.pool.DruidDataSource:928] [restartedMain] - {dataSource-1} inited
+2018-09-12 10:44:44 [INFO] [org.quartz.impl.StdSchedulerFactory:1172] [restartedMain] - Using default implementation for ThreadExecutor
+2018-09-12 10:44:44 [INFO] [org.quartz.core.SchedulerSignalerImpl:61] [restartedMain] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-09-12 10:44:44 [INFO] [org.quartz.core.QuartzScheduler:240] [restartedMain] - Quartz Scheduler v.2.2.3 created.
+2018-09-12 10:44:44 [INFO] [org.quartz.simpl.RAMJobStore:155] [restartedMain] - RAMJobStore initialized.
+2018-09-12 10:44:44 [INFO] [org.quartz.core.QuartzScheduler:305] [restartedMain] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-12 10:44:44 [INFO] [org.quartz.impl.StdSchedulerFactory:1327] [restartedMain] - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-09-12 10:44:44 [INFO] [org.quartz.impl.StdSchedulerFactory:1331] [restartedMain] - Quartz scheduler version: 2.2.3
+2018-09-12 10:44:44 [INFO] [org.quartz.core.QuartzScheduler:2311] [restartedMain] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@8ed529
+2018-09-12 10:44:44 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] [restartedMain] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1dff113: startup date [Wed Sep 12 10:44:40 CST 2018]; root of context hierarchy
+2018-09-12 10:44:45 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/login]}" onto public java.lang.String com.yingli.controller.WebController.login()
+2018-09-12 10:44:45 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-12 10:44:45 [INFO] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] [restartedMain] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-12 10:44:45 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 10:44:45 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 10:44:45 [INFO] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] [restartedMain] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-12 10:44:45 [INFO] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] [restartedMain] - LiveReload server is running on port 35729
+2018-09-12 10:44:45 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] [restartedMain] - Registering beans for JMX exposure on startup
+2018-09-12 10:44:45 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] [restartedMain] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-09-12 10:44:45 [INFO] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] [restartedMain] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-09-12 10:44:45 [INFO] [org.springframework.context.support.DefaultLifecycleProcessor:343] [restartedMain] - Starting beans in phase 2147483647
+2018-09-12 10:44:45 [INFO] [org.springframework.scheduling.quartz.SchedulerFactoryBean:650] [restartedMain] - Will start Quartz Scheduler [schedulerFactoryBean] in 10 seconds
+2018-09-12 10:44:45 [INFO] [org.apache.coyote.http11.Http11NioProtocol:179] [restartedMain] - Initializing ProtocolHandler ["http-nio-8061"]
+2018-09-12 10:44:45 [INFO] [org.apache.coyote.http11.Http11NioProtocol:179] [restartedMain] - Starting ProtocolHandler ["http-nio-8061"]
+2018-09-12 10:44:45 [INFO] [org.apache.tomcat.util.net.NioSelectorPool:179] [restartedMain] - Using a shared selector for servlet write/read
+2018-09-12 10:44:45 [INFO] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:201] [restartedMain] - Tomcat started on port(s): 8061 (http)
+2018-09-12 10:44:45 [INFO] [com.yingli.StockMarketServerStart:57] [restartedMain] - Started StockMarketServerStart in 5.526 seconds (JVM running for 6.48)
+2018-09-12 10:44:45 [INFO] [com.yingli.StockMarketServerStart:29] [restartedMain] - 行情后台服务启动成功
+2018-09-12 10:44:55 [INFO] [org.springframework.scheduling.quartz.SchedulerFactoryBean:665] [Quartz Scheduler [schedulerFactoryBean]] - Starting Quartz Scheduler now, after delay of 10 seconds
+2018-09-12 10:44:55 [INFO] [org.quartz.core.QuartzScheduler:575] [Quartz Scheduler [schedulerFactoryBean]] - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2018-09-12 10:44:55 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-1] - *************************************开始执行行情刷新*************************************
+2018-09-12 10:44:59 [INFO] [com.yingli.stock.server.StockService:677] [schedulerFactoryBean_Worker-1] - 需更新股票数：3544，实际更新股票数：3538
+2018-09-12 10:44:59 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-1] - *************************************执行行情刷新结束, 耗时4秒*************************************
+
+2018-09-12 10:45:05 [INFO] [com.yingli.stock.task.HqTask:49] [schedulerFactoryBean_Worker-2] - *************************************开始执行行情刷新*************************************
+2018-09-12 10:45:07 [INFO] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/stock-marget-server]:179] [http-nio-8061-exec-2] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-12 10:45:07 [INFO] [org.springframework.web.servlet.DispatcherServlet:489] [http-nio-8061-exec-2] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-12 10:45:07 [INFO] [org.springframework.web.servlet.DispatcherServlet:508] [http-nio-8061-exec-2] - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-09-12 10:45:08 [INFO] [com.yingli.stock.server.StockService:677] [schedulerFactoryBean_Worker-2] - 需更新股票数：3544，实际更新股票数：3538
+2018-09-12 10:45:08 [INFO] [com.yingli.stock.task.HqTask:53] [schedulerFactoryBean_Worker-2] - *************************************执行行情刷新结束, 耗时3秒*************************************
+

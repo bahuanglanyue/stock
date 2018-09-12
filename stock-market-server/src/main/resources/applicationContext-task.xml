@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:component-scan base-package="com.yingli" />
+	<import resource="redis-${redis.mode}.xml"/>
+
+	<!-- 行情服务器配置 -->
+	<bean id="hqServerConfig" class="com.yingli.stock.server.HqServerConfig">
+		<property name="hqIp">
+			<list>
+				<value>222.66.65.72</value><!-- 光大证券上海电信1 -->
+				<value>14.17.75.174</value><!-- 深证通东莞电信主站 -->
+				<value>58.63.254.152</value><!-- 云行情广州电信 -->
+				<value>222.73.49.4</value>
+				<value>121.14.110.194</value>
+				<value>119.147.171.207</value>
+			</list>
+		</property>
+		<property name="hqPort">
+			<list>
+				<value>6677</value>
+				<value>7709</value>
+				<value>7709</value>
+				<value>7709</value>
+				<value>7709</value>
+				<value>7709</value>
+			</list>
+		</property>
+	</bean>
+
+	<!--==================================  预设昨日收盘价 ======================================================-->
+	<bean id="initPreCloseTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 注入目标对象 -->
+		<property name="targetObject" ref="hqTask"/>
+		<!-- 注入目标方法 -->
+		<property name="targetMethod" value="initPreClose"/>
+		<!-- 任务不并发调度 -->
+		<property name="concurrent" value="false"/>
+	</bean>
+
+	<!-- 配置触发器 -->
+	<bean id="initPreCloseTaskTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<!-- 注入任务详情对象 -->
+		<property name="jobDetail" ref="initPreCloseTask" />
+		<!-- 注入cron表达式-->
+		<property name="cronExpression" value="0 1 0 ? * *"/>
+	</bean>
+
+	<!--==================================  初始化缓存及DB中股票 ======================================================-->
+	<bean id="initCacheDbStockTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 注入目标对象 -->
+		<property name="targetObject" ref="hqTask"/>
+		<!-- 注入目标方法 -->
+		<property name="targetMethod" value="initCacheDbStock"/>
+		<!-- 任务不并发调度 -->
+		<property name="concurrent" value="false"/>
+	</bean>
+
+	<!-- 配置触发器 -->
+	<bean id="initCacheDbStockTaskTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<!-- 注入任务详情对象 -->
+		<property name="jobDetail" ref="initCacheDbStockTask" />
+		<!-- 注入cron表达式-->
+		<property name="cronExpression" value="0 25 9 ? * *"/>
+	</bean>
+
+	<!--==================================  实时行情刷新 ======================================================-->
+	<bean id="doFlushStockHqTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 注入目标对象 -->
+		<property name="targetObject" ref="hqTask"/>
+		<!-- 注入目标方法 -->
+		<property name="targetMethod" value="doFlushStockHq"/>
+		<!-- 任务不并发调度 -->
+		<property name="concurrent" value="false"/>
+	</bean>
+
+	<!-- 配置触发器 -->
+	<bean id="doFlushStockHqTaskTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<!-- 注入任务详情对象 -->
+		<property name="jobDetail" ref="doFlushStockHqTask" />
+		<!-- 注入cron表达式-->
+		<property name="cronExpression" value="5,15,25,35,45,55 * 9-15 ? * *"/>	<!-- 5,15,25,35,45,55 * 9-15 ? * MON-FRI -->
+	</bean>
+
+	<!--==================================  除权除息 ======================================================-->
+	<bean id="executeDoStockXrDrTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 注入目标对象 -->
+		<property name="targetObject" ref="hqTask"/>
+		<!-- 注入目标方法 -->
+		<property name="targetMethod" value="executeDoStockXrDr"/>
+		<!-- 任务不并发调度 -->
+		<property name="concurrent" value="false"/>
+	</bean>
+
+	<!-- 配置触发器 -->
+	<bean id="executeDoStockXrDrTaskTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<!-- 注入任务详情对象 -->
+		<property name="jobDetail" ref="executeDoStockXrDrTask" />
+		<!-- 注入cron表达式-->
+		<property name="cronExpression" value="0 26 9,16 ? * *"/>
+	</bean>
+
+	<!--================================== 停复牌股票扫描 ======================================================-->
+	<bean id="doFlushHaltResumeStockTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 注入目标对象 -->
+		<property name="targetObject" ref="hqTask"/>
+		<!-- 注入目标方法 -->
+		<property name="targetMethod" value="doFlushHaltResumeStock"/>
+		<!-- 任务不并发调度 -->
+		<property name="concurrent" value="false"/>
+	</bean>
+
+	<!-- 配置触发器 -->
+	<bean id="doFlushHaltResumeStockTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<!-- 注入任务详情对象 -->
+		<property name="jobDetail" ref="doFlushHaltResumeStockTask" />
+		<!-- 注入cron表达式-->
+		<property name="cronExpression" value="0 0/10 8-22 ? * *"/>
+	</bean>
+
+	<!--=====================================配置工厂================================================-->
+	<!-- 配置调度工厂 -->
+	<bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" lazy-init="false">
+		<property name="startupDelay" value="10" />
+		<!-- 注入触发器 -->
+		<property name="triggers">
+			<list>
+				<ref bean="initPreCloseTaskTrigger"/><!--预设昨日收盘价-->
+				<ref bean="initCacheDbStockTaskTrigger"/><!--初始化缓存及DB中股票-->
+				<ref bean="doFlushStockHqTaskTrigger"/><!-- 实时行情刷新 -->
+				<ref bean="executeDoStockXrDrTaskTrigger"/><!-- 除权除息 -->
+				<ref bean="doFlushHaltResumeStockTrigger"/><!-- 停复牌扫描 -->
+			</list>
+		</property>
+	</bean>
+
+</beans>

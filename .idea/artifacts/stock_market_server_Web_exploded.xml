@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="stock-market-server:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/stock_market_server_Web_exploded</output-path>
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$/stock-market-server/src/main/webapp" />
+      <element id="javaee-facet-resources" facet="web-demo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-demo" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

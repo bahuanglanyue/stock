@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7b107f3-dc23-43fc-b838-05a94f0481c8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/constant/CacheConsts.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/constant/CommConsts.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/library/TdxLibrary.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/DateUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/DingTalkUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/HttpUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/NetUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/NumUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/PinyinUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/StockHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/ThreadPoolHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/common/util/UUIDUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/framework/entity/ResultBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/framework/exception/MessageException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/framework/generator/CodeGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/framework/redis/RedisCache$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/framework/redis/RedisCache$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/target/classes/com/yingli/framework/redis/RedisCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/config/ConfigLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/config/InterceptorRegister.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/config/MybatisPlusConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/config/SwaggerAutoConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/exception/GlobalExceptionHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/feature/auth/controller/AuthController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/feature/test/controller/TestController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/main/GatewayStart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/config/AuthorizationServerConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/config/CustomDefaultTokenServices.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/config/ResourceServerConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/config/WebSecurityConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/exception/AuthExceptionConsts.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/exception/AuthExceptionEntryPoint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/exception/CustomOauthException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/exception/CustomOauthExceptionSerializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/exception/CustomWebResponseExceptionTranslator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/model/CustomUserDetails.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/model/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/security/service/impl/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/com/yingli/stock/controller/StockMarketController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/TradeX.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/mfc100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/mfc42.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/mfcm100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/msvcp100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/msvcr100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/msvcrt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/system.uid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/static/image/fly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/StockMarketServerStart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/config/ConfigLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/config/MybatisPlusConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/config/SolrHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/controller/WebController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/stock/server/HqServerConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/stock/server/StockHaltResumeService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/stock/server/StockService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/stock/server/TdxHqLibrary.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/stock/task/HqTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/stock/vo/StockSolr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/com/yingli/stock/vo/StockVo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/TradeX.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/mfc100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/mfc42.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/mfcm100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/msvcp100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/msvcr100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/msvcrt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/system.uid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/static/image/fly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/test-classes/com/yingli/stock/controller/TestTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/target/classes/com/yingli/dao/StockInfoDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/target/classes/com/yingli/entity/StockInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/target/classes/com/yingli/service/IStockInfoService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/target/classes/com/yingli/service/impl/StockInfoServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/market-server-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/market-server.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/constant/CacheConsts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/constant/CommConsts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/library/TdxLibrary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/DateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/DingTalkUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/HttpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/NetUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/NumUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/PinyinUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/StockHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/ThreadPoolHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/UUIDUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/framework/entity/ResultBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/framework/exception/MessageException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/framework/generator/CodeGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/framework/redis/RedisCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/assembly/assembly.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/assembly/bin/start.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/assembly/bin/start.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/assembly/conf/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/config/ConfigLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/config/InterceptorRegister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/config/MybatisPlusConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/config/SwaggerAutoConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/exception/GlobalExceptionHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/feature/auth/controller/AuthController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/feature/test/controller/TestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/interceptor/AuthInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/main/GatewayStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/AuthorizationServerConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/CustomDefaultTokenServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/ResourceServerConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/WebSecurityConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/exception/AuthExceptionConsts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/exception/AuthExceptionEntryPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/exception/CustomOauthException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/exception/CustomOauthExceptionSerializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/exception/CustomWebResponseExceptionTranslator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/model/CustomUserDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/stock/controller/StockMarketController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/resources/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/resources/log4j2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/resources/redis-more.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/src/main/resources/redis-one.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/log4j2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/redis-more.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-gateway/target/classes/redis-one.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/assembly/assembly.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/assembly/bin/start.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/assembly/bin/start.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/assembly/conf/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/StockMarketServerStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/ConfigLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/MvcConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/MybatisPlusConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/SolrHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/controller/WebController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/HqServerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/StockHaltResumeService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/StockService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/TdxHqLibrary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/task/HqTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo/StockSolr.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo/StockVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/META-INF/resources/WEB-INF/pages/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/applicationContext-task.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/TradeX.lic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/dll/TradeX.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/log4j2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/redis-more.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/main/resources/redis-one.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/src/test/java/com/yingli/stock/controller/TestTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/META-INF/resources/WEB-INF/pages/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/applicationContext-task.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/TradeX.lic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/dll/TradeX.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/log4j2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/redis-more.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-server/target/classes/redis-one.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/dao/StockInfoDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/dao/mapper/StockInfoDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/entity/StockInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/service/IStockInfoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/service/impl/StockInfoServiceImpl.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/stock-market-common/target/" />
+    <ignored path="$PROJECT_DIR$/stock-market-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/stock-market-server/target/" />
+    <ignored path="$PROJECT_DIR$/stock-market-service/target/" />
+    <ignored path="$PROJECT_DIR$/web-demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="StockMarketServerStart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/StockMarketServerStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/resources/META-INF/resources/WEB-INF/pages/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SpringUtil.getBean(&quot;redisCache&quot;)</find>
+      <find>SpringUtil.getBean(&quot;hqServerConfig&quot;)</find>
+      <find>StockConsts</find>
+      <find>hqStockInfo</find>
+      <find>stockInfoService</find>
+      <find>stockInfoList</find>
+      <find>StockInfo</find>
+      <find>stockInfo</find>
+      <find>updateTime</find>
+      <find>swa</find>
+      <find>jdbc</find>
+      <find>ThreadPoolHelper</find>
+      <find>Map.forEach</find>
+      <find>stream</find>
+      <find>hqMap</find>
+      <find>StockVo</find>
+      <find>jdbcTemplate</find>
+      <find>getSysTimeFromDb</find>
+      <find>nowTime</find>
+      <find>EnableTransactionManagement</find>
+      <find>EnableWebMvc</find>
+      <find>devtools</find>
+      <find>fork</find>
+      <find>tomcat-embed-jasper</find>
+      <find>mybatis-spring-boot-starter</find>
+      <find>provided</find>
+      <find>spring-boot-starter-tomcat</find>
+      <find>spring-boot-starter-web</find>
+      <find>spring-boot-starter-test</find>
+      <find>addResourceHandler</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>market-gateway</replace>
+      <replace>market-server</replace>
+      <replace>CommConsts</replace>
+      <replace>hqStockVo</replace>
+      <replace>stockVoList</replace>
+      <replace>StockVo</replace>
+      <replace>stockVo</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\devsoft\stock-market\stock-market-gateway\src\main\java\com\yingli</dir>
+      <dir>E:\devsoft\stock-market\stock-market-gateway</dir>
+      <dir>E:\devsoft\stock-market\stock-market-gateway\src\main\java\com\yingli\security</dir>
+      <dir>E:\devsoft\stock-market</dir>
+      <dir>E:\devsoft\stock-market\stock-market-server\src\main\java\com\yingli</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/WebSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/CustomDefaultTokenServices.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/feature/stock/config/HqServerConfig.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/feature/stock/task/HqTask.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/feature/stock/server/TdxHqLibrary.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/feature/stock/server/HqServerConfig.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/feature/stock/server/StockService.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/DateUtil.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/NumUtil.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/TdxHqLibrary.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/NetUtil.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/constant/CommConsts.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/StockHelper.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo/StockInfo.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/PinyinUtil.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/ThreadPoolHelper.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/DingTalkUtil.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/StockHaltResumeService.java" />
+        <option value="$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/service/IStockInfoService.java" />
+        <option value="$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/service/impl/StockInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/SolrConfig.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/SolrHelper.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo/StockVo.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/task/HqTask.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/UUIDUtils.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo/StockSolr.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/StockService.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/webapp/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/resources/applicationContext-task.xml" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/SpringServletContainerInitializer.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/controller/WebController.java" />
+        <option value="$PROJECT_DIR$/web-demo/src/main/java/com/yingli/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/web-demo/src/main/java/com/yingli/web/PersonController.java" />
+        <option value="$PROJECT_DIR$/web-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/main/StockMarketServerStart.java" />
+        <option value="$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/library/TdxLibrary.java" />
+        <option value="$PROJECT_DIR$/web-demo/src/main/java/com/yingli/Application.java" />
+        <option value="$PROJECT_DIR$/web-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/StockMarketServerStart.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/stock-market-server/src/main/resources/META-INF/resources/WEB-INF/pages/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-market" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-market" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-market" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-market-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-market-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-market-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1935" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stock-market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock-market" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ktsd/finances-center/finances-center-platform" />
+    <property name="show.run.dashboard.notification" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yingli.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\devsoft\stock-market\stock-market-server\src\main\resources\META-INF\resources" />
+      <recent name="E:\devsoft\stock-market\stock-market-server\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yingli" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yingli" />
+      <recent name="com.yingli.config" />
+      <recent name="com.yingli.common.util" />
+      <recent name="com.yingli.stock.server" />
+      <recent name="com.yingli.stock.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\devsoft\stock-market\stock-market-server\src\main\resources\static\image" />
+      <recent name="E:\devsoft\stock-market\web-demo\src\main\resources" />
+      <recent name="E:\devsoft\stock-market\web-demo\src\main" />
+      <recent name="E:\devsoft\stock-market\web-demo\src\main\java\com\yingli" />
+      <recent name="E:\devsoft\stock-market\stock-market-server\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StockMarketServerStart">
+    <configuration name="StockMarketServerStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yingli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yingli.StockMarketServerStart" />
+      <module name="stock-market-server" />
+      <envs />
+    </configuration>
+    <configuration name="UUIDUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yingli.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yingli.common.util.UUIDUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="stock-market-common" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.UUIDUtils" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.StockMarketServerStart" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.StockMarketServerStart" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UUIDUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7b107f3-dc23-43fc-b838-05a94f0481c8" name="Default" comment="" />
+      <created>1530061820202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530061820202</updated>
+      <workItem from="1530061821859" duration="22809000" />
+      <workItem from="1531277846434" duration="1859000" />
+      <workItem from="1531703489397" duration="10190000" />
+      <workItem from="1532063327286" duration="7469000" />
+      <workItem from="1532307687076" duration="11853000" />
+      <workItem from="1532335328191" duration="3419000" />
+      <workItem from="1533001612167" duration="8070000" />
+      <workItem from="1533175613247" duration="22136000" />
+      <workItem from="1533628378280" duration="3207000" />
+      <workItem from="1533792881584" duration="2657000" />
+      <workItem from="1535363362365" duration="57894000" />
+      <workItem from="1535591503838" duration="11498000" />
+      <workItem from="1535936920152" duration="7847000" />
+      <workItem from="1536202232228" duration="16996000" />
+      <workItem from="1536281622983" duration="13242000" />
+      <workItem from="1536305516493" duration="10701000" />
+      <workItem from="1536545991426" duration="6982000" />
+      <workItem from="1536627331134" duration="8514000" />
+      <workItem from="1536636266145" duration="3790000" />
+      <workItem from="1536646919179" duration="6248000" />
+      <workItem from="1536712145954" duration="11622000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestControllerTest_testReq - 2018.07.24 at 09h 51m 57s.xml">
+      <configuration name="TestControllerTest.testReq" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="249003000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72960895" sideWeight="0.4424307" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22863248" sideWeight="0.49253732" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44556677" sideWeight="0.5575693" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35578004" sideWeight="0.49573562" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4481982" sideWeight="0.78837955" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4301676" sideWeight="0.60714287" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7787709" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160256" sideWeight="0.4907563" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06997863" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Compute Code Lines" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21055438" sideWeight="0.5039106" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12846482" sideWeight="0.5074627" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2675906" sideWeight="0.5092437" order="5" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="91" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/exception/AuthExceptionEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/ThreadPoolHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.6.RELEASE/spring-context-support-4.3.6.RELEASE.jar!/org/springframework/scheduling/quartz/MethodInvokingJobDetailFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/HqServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/task/HqTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/StockHaltResumeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo/StockVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/vo/StockSolr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="154" column="5" lean-forward="true" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/stock/server/StockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="673" column="16" lean-forward="true" selection-start-line="673" selection-start-column="16" selection-end-line="673" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/UUIDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/CustomDefaultTokenServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/security/config/AuthorizationServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/java/com/yingli/feature/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/resources/applicationContext-task.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="123" column="58" lean-forward="false" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/SpringServletContainerInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/ServletInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="uml://MAVEN/com.yingli:stock-market:1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.yingli:stock-market:1.0</OriginalElement>
+          <nodes>
+            <node x="" y="">com.yingli:stock-market:1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework:spring-web:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework:spring-web:jar:4.3.12.RELEASE/org.springframework:spring-aop:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework:spring-web:jar:4.3.12.RELEASE/org.springframework:spring-beans:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework:spring-webmvc:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE/org.springframework:spring-webmvc:jar:4.3.12.RELEASE/org.springframework:spring-expression:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23/org.apache.tomcat:tomcat-annotations-api:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.23</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.23</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.23/org.eclipse.jdt:ecj:jar:3.12.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-log4j2:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-log4j2:jar:1.5.8.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-log4j2:jar:1.5.8.RELEASE/org.apache.logging.log4j:log4j-api:jar:2.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-log4j2:jar:1.5.8.RELEASE/org.apache.logging.log4j:log4j-core:jar:2.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-log4j2:jar:1.5.8.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-log4j2:jar:1.5.8.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.8.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.8.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.8.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.8.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.8.RELEASE/org.springframework:spring-oxm:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.8.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.8.RELEASE/org.springframework:spring-context-support:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.8.RELEASE/redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.8.RELEASE/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.springframework:spring-core:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.8.RELEASE/org.springframework:spring-test:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:1.5.8.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:1.5.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:1.5.8.RELEASE/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.9</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.30</node>
+            <node x="" y="">com.alibaba:druid:jar:1.1.9</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/com.baomidou:mybatis-plus:jar:2.2.0</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/com.baomidou:mybatis-plus:jar:2.2.0/com.baomidou:mybatis-plus-support:jar:2.2.0</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/com.baomidou:mybatis-plus:jar:2.2.0/com.baomidou:mybatis-plus-core:jar:2.2.0</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/com.baomidou:mybatis-plus:jar:2.2.0/com.baomidou:mybatis-plus-core:jar:2.2.0/com.github.jsqlparser:jsqlparser:jar:1.1</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/com.baomidou:mybatis-plus:jar:2.2.0/com.baomidou:mybatis-plus-core:jar:2.2.0/org.mybatis:mybatis-spring:jar:1.3.2</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/com.baomidou:mybatis-plus:jar:2.2.0/com.baomidou:mybatis-plus-core:jar:2.2.0/org.mybatis:mybatis:jar:3.4.6</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/com.baomidou:mybatis-plus:jar:2.2.0/com.baomidou:mybatis-plus-generate:jar:2.2.0</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.8.RELEASE</node>
+            <node x="" y="">com.baomidou:mybatis-plus-boot-starter:jar:2.2.0/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.8.RELEASE/org.springframework:spring-jdbc:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.apache.velocity:velocity:jar:1.7</node>
+            <node x="" y="">org.apache.velocity:velocity:jar:1.7/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.apache.velocity:velocity:jar:1.7/commons-lang:commons-lang:jar:2.4</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.swagger:swagger-annotations:jar:1.5.6</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.swagger:swagger-models:jar:1.5.6</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-spi:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-spi:jar:2.4.0/io.springfox:springfox-core:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-schema:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-swagger-common:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-spring-web:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.4.0</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3</node>
+            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3/c3p0:c3p0:jar:0.9.1.1</node>
+            <node x="" y="">org.quartz-scheduler:quartz-jobs:jar:2.2.3</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.39</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.6</node>
+            <node x="" y="">org.apache.commons:commons-collections4:jar:4.0</node>
+            <node x="" y="">org.springframework.security:spring-security-jwt:jar:1.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-jwt:jar:1.0.0.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3</node>
+            <node x="" y="">org.springframework.security:spring-security-jwt:jar:1.0.0.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3/org.codehaus.jackson:jackson-core-asl:jar:1.8.3</node>
+            <node x="" y="">org.springframework.security:spring-security-jwt:jar:1.0.0.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.47</node>
+            <node x="" y="">org.springframework.security:spring-security-jwt:jar:1.0.0.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.47/org.bouncycastle:bcprov-jdk15on:jar:1.47</node>
+            <node x="" y="">net.java.dev.jna:jna:jar:4.5.0</node>
+            <node x="" y="">com.belerweb:pinyin4j:jar:2.5.0</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.5</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.5/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.apache.httpcomponents:httpasyncclient:jar:4.1</node>
+            <node x="" y="">org.apache.httpcomponents:httpasyncclient:jar:4.1/org.apache.httpcomponents:httpcore-nio:jar:4.4.1</node>
+            <node x="" y="">org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.springframework:spring-context:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.springframework:spring-tx:jar:4.3.12.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.8.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.apache.httpcomponents:httpmime:jar:4.5.3</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="" y="">org.springframework.data:spring-data-solr:jar:2.1.8.RELEASE/org.apache.solr:solr-solrj:jar:5.5.4/org.noggit:noggit:jar:0.6</node>
+            <node x="" y="">javax.servlet:jstl:jar:1.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6395604395604394" x="1078.0" y="804.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-demo/src/main/java/com/yingli/service/PersonService.java" />
+    <entry file="file://$PROJECT_DIR$/web-demo/src/main/java/com/yingli/dao/PersonMapping.java" />
+    <entry file="file://$PROJECT_DIR$/stock-market-service/src/main/java/com/yingli/service/impl/StockInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/library/TdxLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-demo/src/main/java/com/yingli/Application.java" />
+    <entry file="file://$PROJECT_DIR$/web-demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/web-demo/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/web-demo/src/main/java/com/yingli/web/PersonController.java" />
+    <entry file="file://$PROJECT_DIR$/web-demo/src/main/java/com/yingli/model/Person.java" />
+    <entry file="file://$PROJECT_DIR$/web-demo/src/main/webapp/WEB-INF/jsp/success.jsp" />
+    <entry file="file://$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/framework/redis/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/DingTalkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/ConfigLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/SolrHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-common/src/main/java/com/yingli/common/constant/CommConsts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/controller/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#244#245#0" expanded="false" />
+            <element signature="e#274#275#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/StockMarketServerStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/java/com/yingli/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3103">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-market-server/src/main/resources/META-INF/resources/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>stock-market-server:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8-32</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>stock-market-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

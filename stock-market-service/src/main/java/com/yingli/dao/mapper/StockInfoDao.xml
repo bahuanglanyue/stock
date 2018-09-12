@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yingli.dao.StockInfoDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yingli.entity.StockInfo">
+        <id column="id" property="id" />
+        <result column="stock_code" property="stockCode" />
+        <result column="stock_name" property="stockName" />
+        <result column="stock_pingying" property="stockPingying" />
+        <result column="stock_industry" property="stockIndustry" />
+        <result column="stock_category" property="stockCategory" />
+        <result column="is_stock_enable" property="isStockEnable" />
+        <result column="trading_halt_time" property="tradingHaltTime" />
+        <result column="resumption_time" property="resumptionTime" />
+        <result column="halt_status" property="haltStatus" />
+        <result column="announcement_day" property="announcementDay" />
+        <result column="record_date" property="recordDate" />
+        <result column="ex_dividend_day" property="exDividendDay" />
+        <result column="ex_rights_stock_times" property="exRightsStockTimes" />
+        <result column="without_dividend" property="withoutDividend" />
+        <result column="description" property="description" />
+        <result column="max_buying_amount" property="maxBuyingAmount" />
+        <result column="is_follow_param" property="isFollowParam" />
+        <result column="remark" property="remark" />
+        <result column="created_time" property="createdTime" />
+        <result column="updated_time" property="updatedTime" />
+        <result column="deleted_at" property="deletedAt" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, stock_code AS stockCode, stock_name AS stockName, stock_pingying AS stockPingying, stock_industry AS stockIndustry, stock_category AS stockCategory, is_stock_enable AS isStockEnable, trading_halt_time AS tradingHaltTime, resumption_time AS resumptionTime, halt_status AS haltStatus, announcement_day AS announcementDay, record_date AS recordDate, ex_dividend_day AS exDividendDay, ex_rights_stock_times AS exRightsStockTimes, without_dividend AS withoutDividend, description, max_buying_amount AS maxBuyingAmount, is_follow_param AS isFollowParam, remark, created_time AS createdTime, updated_time AS updatedTime, deleted_at AS deletedAt
+    </sql>
+
+</mapper>

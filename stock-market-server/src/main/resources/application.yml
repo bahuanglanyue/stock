@@ -4,6 +4,9 @@ server:
       uri-encoding: UTF-8
     context-path: /stock-marget-server
 
+banner:
+  location: classpath:banner.txt
+
 spring:
   profiles:
       active: @env@
